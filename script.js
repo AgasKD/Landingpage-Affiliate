@@ -16,12 +16,12 @@ const CONFIG = {
      * Controls header, hero section, and meta information
      */
     page: {
-        title: "🔥 Promo Spesial Hari Ini",       // Header title
+        title: "Promo Spesial Hari Ini",       // Header title
         subtitle: "Diskon hingga 90% + Gratis Ongkir",  // Header subtitle
         showHeader: true,                          // Show/hide header
         showHero: true,                            // Show/hide hero banner
-        heroImage: "https://cf.shopee.co.id/file/id-50009109-7be8be1e14bb4cbbebd91ab4dfda1fe1_xxhdpi", // Hero banner URL
-        heroAlt: "Promo Banner",                   // Hero image alt text
+        heroImage: "https://i.imgur.com/ye0B0xb.jpeg", // Hero banner URL
+        heroAlt: "Promo Banr",                   // Hero image alt text
         heroLink: ""                               // Optional: make hero clickable (leave empty to disable)
     },
 
@@ -219,7 +219,7 @@ class AffiliateApp {
      */
     createProductCard(product) {
         const hasTitle = product.title && product.title.trim() !== '';
-        
+
         return `
             <a href="${this.escapeHtml(product.affiliate_url)}" 
                class="product-card" 
@@ -249,14 +249,14 @@ class AffiliateApp {
      */
     setupClickHandlers() {
         const cards = document.querySelectorAll('.product-card');
-        
+
         cards.forEach(card => {
             card.addEventListener('click', (e) => {
                 const productId = card.dataset.productId;
-                
+
                 // Optional: Add analytics tracking here
                 // Example: gtag('event', 'click', { product_id: productId });
-                
+
                 // Log for debugging (remove in production)
                 console.log(`Product clicked: ${productId}`);
             });
@@ -341,7 +341,7 @@ if (window.performance) {
             const timing = performance.timing;
             const loadTime = timing.loadEventEnd - timing.navigationStart;
             console.log(`Page load time: ${loadTime}ms`);
-            
+
             // Warn if load time exceeds target
             if (loadTime > 2000) {
                 console.warn('⚠️ Page load time exceeds 2 second target');
