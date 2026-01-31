@@ -21,7 +21,7 @@ const CONFIG = {
         showHeader: true,                          // Show/hide header
         showHero: true,                            // Show/hide hero banner
         heroImage: "https://i.imgur.com/ye0B0xb.jpeg", // Hero banner URL
-        heroAlt: "Promo Banr",                   // Hero image alt text
+        heroAlt: "Promo Banner",                   // Hero image alt text
         heroLink: ""                               // Optional: make hero clickable (leave empty to disable)
     },
 
@@ -44,51 +44,39 @@ const CONFIG = {
     products: [
         {
             id: 1,
-            title: "Sepatu Running Pria Wanita Sneakers Sport Casual",
-            image: "https://down-id.img.susercontent.com/file/id-11134207-7r98t-lxo8bhbn5lgy04",
-            affiliate_url: "https://shope.ee/example1"
+            title: "Jaket putih stylish, nyaman dipakai ✨",
+            image: "https://i.imgur.com/etzHlUw.jpeg",
+            affiliate_url: "https://s.shopee.co.id/806qtKhJBA"
         },
         {
             id: 2,
-            title: "Tas Selempang Wanita Korea Style Fashion Import",
-            image: "https://down-id.img.susercontent.com/file/id-11134207-7r98z-lxoq9bx8n5pd36",
-            affiliate_url: "https://shope.ee/example2"
+            title: "Sepatu hitam glossy, manis dipakai 💖",
+            image: "https://i.imgur.com/t7sVDmx.jpeg",
+            affiliate_url: "https://s.shopee.co.id/7VAaIY6NWv"
         },
         {
             id: 3,
-            title: "Kaos Polos Premium Cotton Combed 30s Unisex",
-            image: "https://down-id.img.susercontent.com/file/id-11134207-7r98y-lxnq9wkbxgq593",
-            affiliate_url: "https://shope.ee/example3"
+            title: "Tas hitam elegan, muat banyak 🖤",
+            image: "https://i.imgur.com/N0WFEOa.jpeg",
+            affiliate_url: "https://s.shopee.co.id/50TFKDmxgO"
         },
         {
             id: 4,
-            title: "Headphone Bluetooth Wireless Gaming Bass HD",
-            image: "https://down-id.img.susercontent.com/file/id-11134207-7r992-lxpq8wkgdht92e",
-            affiliate_url: "https://shope.ee/example4"
+            title: "Jam tangan silver elegan, classy ⌚✨",
+            image: "https://i.imgur.com/gNhqv3b.jpeg",
+            affiliate_url: "https://s.shopee.co.id/6VI377c2CK"
         },
         {
             id: 5,
-            title: "Skincare Set Paket Lengkap Glowing Korea",
-            image: "https://down-id.img.susercontent.com/file/id-11134207-7r98t-lxoq8wkbn5pd36",
-            affiliate_url: "https://shope.ee/example5"
+            title: "Atasan coklat elegan, jatuh cantik 🤎",
+            image: "https://i.imgur.com/chsPoMv.jpeg",
+            affiliate_url: "https://s.shopee.co.id/4LDYXLgTXV"
         },
         {
             id: 6,
-            title: "Jam Tangan Digital LED Sport Waterproof",
-            image: "https://down-id.img.susercontent.com/file/id-11134207-7r990-lxpq8wkgdht9b3",
-            affiliate_url: "https://shope.ee/example6"
-        },
-        {
-            id: 7,
-            title: "Celana Jogger Pria Training Olahraga Slim Fit",
-            image: "https://down-id.img.susercontent.com/file/id-11134207-7r98s-lxoq8wkbn5pd30",
-            affiliate_url: "https://shope.ee/example7"
-        },
-        {
-            id: 8,
-            title: "Power Bank 10000mAh Fast Charging LED Display",
-            image: "https://down-id.img.susercontent.com/file/id-11134207-7r98v-lxpq8wkgdht94f",
-            affiliate_url: "https://shope.ee/example8"
+            title: "Celana coklat high waist, sleek 🤎",
+            image: "https://i.imgur.com/2zgCUDc.jpeg",
+            affiliate_url: "https://s.shopee.co.id/4LDYXLgTXV"
         }
     ]
 };
