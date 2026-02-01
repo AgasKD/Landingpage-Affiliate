@@ -76,7 +76,7 @@ const CONFIG = {
             id: 6,
             title: "Celana coklat high waist, sleek 🤎",
             image: "https://i.imgur.com/2zgCUDc.jpeg",
-            affiliate_url: "https://s.shopee.co.id/4LDYXLgTXV"
+            affiliate_url: "https://s.shopee.co.id/3B1b9LJq5C"
         }
     ]
 };
